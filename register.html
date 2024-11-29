@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <div class="background">
+        <div class="register-box">
+            <h2>Register</h2>
+            <form id="register-form">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Masukan Username" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Masukan Email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Masukan Password" required>
+
+                <label for="confirm-password">Konfirmasi Password</label>
+                <input type="password" id="confirm-password" placeholder="Konfirmasi Password" required>
+
+                <label for="country">Negara</label>
+                <select name="country" id="country">
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Jepang">Jepang</option>
+                    <option value="Inggris">Inggris</option>
+                </select>
+
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
